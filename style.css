@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+}
+
+/*--- Item and Description Section ---*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.container #text{
+    width: 50%;
+    margin: 12px 0;
+    height: 50px;
+    text-align: center;
+}
+.container #textarea {
+    width: 50%;
+    margin: 12px 0;
+    text-align: center;
+}
+#add{
+    height: 30px;
+    width: 70px;
+    color: rgb(2, 2, 2);
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+#clear{
+    height: 30px;
+    width: 90px;
+    color: rgb(2, 2, 2);
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+
+/* ---Table Section--- */
+.table{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 20px auto;
+    height: 200px;
+}
+.table table{
+    background-color: aliceblue;
+}
+.table tr th{
+    margin: 5px;
+    border: 1px solid black;
+}
+.table tr td{
+    padding: 21px;
+    border: 1px solid black;
+}

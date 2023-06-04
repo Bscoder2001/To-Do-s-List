@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do's list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <input type="text" placeholder="Type Item here" id="text">
+        <!-- <br> -->
+        <textarea name="description" id="textarea" cols="30" rows="10" placeholder="Type Description here"></textarea>
+
+        <input type="button" value="Add to list" id="add">
+        <br>
+        <input type="button" value="Clear the list" id="clear">
+    </div>
+    <br>
+    <hr>
+    <hr>
+    <br>
+    <h3 style="text-align: center;">Your Items</h3>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">Item & Description</th>
+
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+           
+            </tbody>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
